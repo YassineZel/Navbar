@@ -1,0 +1,51 @@
+
+
+.option{
+  display:none;
+  position: absolute;
+  list-style: none;
+  padding: 10px 2px;
+  text-align: left ;
+  }
+  .App {
+    text-align: center;
+    display:flex;
+    justify-content: space-around;
+    color:rgb(3, 3, 3);
+    width:55%;
+    margin:auto;
+    text-decoration: none;
+    list-style: none;
+    font-weight:bold;
+    border-bottom: 5px solid rgb(7, 7, 226);
+  }
+  .App a{
+    text-decoration: none;
+   
+ }
+  
+ .bleu{
+   color:rgb(7, 7, 226);;
+ }
+ .black{
+   color:rgb(3, 3, 3);
+ }
+ 
+.bloc{
+  position: relative;
+  width:22%;
+}
+
+.bloc:hover .option{ display: block;
+  border: 5px solid rgb(7, 7, 226);; 
+  
+}
+.bloc:hover .option{
+  display:block;
+}
+.bloc a {
+
+  text-decoration: none;
+}
+
+
